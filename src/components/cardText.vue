@@ -18,6 +18,10 @@ export default {
           value: '<i class="ms ms-tap"></i>'
         },
         {
+          key: '\{C\}',
+          value: '<i class="ms ms-c ms-cost"></i>'
+        },
+        {
           key: '\{R\}',
           value: '<i class="ms ms-r ms-cost"></i>'
         },
@@ -44,6 +48,18 @@ export default {
         {
           key: '\\{2\\}',
           value: '<i class="ms ms-2 ms-cost"></i>'
+        },
+        {
+          key: '\\{3\\}',
+          value: '<i class="ms ms-3 ms-cost"></i>'
+        },
+        {
+          key: '\\{4\\}',
+          value: '<i class="ms ms-4 ms-cost"></i>'
+        },
+        {
+          key: '\\{5\\}',
+          value: '<i class="ms ms-5 ms-cost"></i>'
         }
       ]
 
