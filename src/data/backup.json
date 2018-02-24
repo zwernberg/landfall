@@ -1,0 +1,21 @@
+{
+  "groups": [
+    {
+      "name": "red-blue",
+      "symbols": ["u","r"],
+      "cards": [
+        {
+          "name": "Spirebluff Canal",
+          "oracle_text": "Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.</br> <i class='ms ms-tap'></i>: Add <i class='ms ms-u ms-cost'></i> or <i class='ms ms-r ms-cost'></i>  to your mana pool.",
+          "id": "4e587ea7-0632-4789-ba75-3c410da2bb96"
+        },
+        {
+          "name": "Highland Lake",
+          "oracle_text": "Highland Lake enters the battlefield tapped.</br> <i class='ms ms-tap'></i>: Add <i class='ms ms-u ms-cost'></i> or <i class='ms ms-r ms-cost'></i> to your mana pool.",
+          "id": "344f5678-d25b-40af-aa91-b0eed90fd037"
+        }
+      ]
+
+    }
+  ]
+}

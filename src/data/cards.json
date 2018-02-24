@@ -1,0 +1,174 @@
+{
+  "groups": [
+    {
+      "name": "white-blue",
+      "symbols": ["w","u"],
+      "cards": [
+        {
+        "name": "Glacial Fortress",
+        "oracle_text": "Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.↵{T}: Add {W} or {U} to your mana pool.",
+        "id": "cef133d9-26d2-4a1e-8d6a-829f1067c169"
+        },
+        {
+          "name": "Irrigated Farmland",
+          "oracle_text": "({T}: Add {W} or {U} to your mana pool.)↵Irrigated Farmland enters the battlefield tapped.↵Cycling {2} ({2}, Discard this card: Draw a card.)",
+          "id": "4d87fcc0-cef5-4410-adf1-91c5f50c1d01"
+        }
+      ]
+    },
+    {
+      "name": "white-black",
+      "symbols": ["w","b"],
+      "cards": [
+        {
+        "name": "Forsaken Sanctuary",
+        "oracle_text":"Forsaken Sanctuary enters the battlefield tapped.↵{T}: Add {W} or {B} to your mana pool.",
+        "id": "32e5daf3-6a55-4c2f-92d1-33e0755ee280"
+        },
+        {
+          "name": "Concealed Courtyard",
+          "oracle_text": "Concealed Courtyard enters the battlefield tapped unless you control two or fewer other lands.↵{T}: Add {W} or {B} to your mana pool.",
+          "id": "c8769e97-aee8-4466-a9d7-0f4245ae4a97"
+        }
+      ]
+    },
+    {
+      "name": "white-red",
+      "symbols": ["w","r"],
+      "cards": [
+        {
+        "name": "Stone Quarry",
+        "oracle_text": "Stone Quarry enters the battlefield tapped.↵{T}: Add {R} or {W} to your mana pool.",
+        "id": "315e782c-2159-4e8d-b2d7-9f96b7609db4"
+        },
+        {
+          "name": "Inspiring Vantage",
+          "oracle_text": "Inspiring Vantage enters the battlefield tapped unless you control two or fewer other lands.↵{T}: Add {R} or {W} to your mana pool.",
+          "id": "160ac412-005f-48ca-a204-10207307c6c2"
+        }
+      ]
+    },
+    {
+      "name": "white-green",
+      "symbols": ["w","g"],
+      "cards": [
+        {
+        "name": "Tranquil Expanse",
+        "oracle_text": "Tranquil Expanse enters the battlefield tapped.↵{T}: Add {G} or {W} to your mana pool.",
+        "id": "34ae81d1-7858-4790-aca8-d5cd7735d67a"
+        },
+        {
+          "name": "Sunpetal Grove",
+          "oracle_text": "Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.↵{T}: Add {G} or {W} to your mana pool.",
+          "id": "0f234312-00e8-49f7-a489-f4c316b0a81a"
+        },
+        {
+          "name": "Scattered Groves",
+          "oracle_text": "({T}: Add {G} or {W} to your mana pool.)↵Scattered Groves enters the battlefield tapped.↵Cycling {2} ({2}, Discard this card: Draw a card.)",
+          "id": "ccb541aa-3bf6-41f3-89e5-9c6c56ea210a"
+        }
+      ]
+    },
+    {
+      "name": "blue-black",
+      "symbols": ["u","b"],
+      "cards": [
+        {
+          "name": "Submerged Boneyard",
+          "oracle_text": "Submerged Boneyard enters the battlefield tapped.↵{T}: Add {U} or {B} to your mana pool.",
+          "id": "ad4e966e-cb51-461a-9089-25054dec57fb"
+        },
+        {
+          "name": "Fetid Pools",
+          "oracle_text": "({T}: Add {U} or {B} to your mana pool.)↵Fetid Pools enters the battlefield tapped.↵Cycling {2} ({2}, Discard this card: Draw a card.)",
+          "id": "ae703d94-6f1f-463b-ab25-1b3f462e7e78"
+        }
+      ]
+    },
+    {
+      "name": "blue-red",
+      "symbols": ["u","r"],
+      "cards": [
+        {
+          "name": "Highland Lake",
+          "oracle_text": "Highland Lake enters the battlefield tapped.↵{T}: Add {U} or {R} to your mana pool.",
+          "id": "344f5678-d25b-40af-aa91-b0eed90fd037"
+        },
+        {
+          "name": "Spirebluff Canal",
+          "oracle_text": "Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.↵{T}: Add {U} or {R} to your mana pool.",
+          "id": "4e587ea7-0632-4789-ba75-3c410da2bb96"
+        }
+      ]
+    },
+    {
+      "name": "blue-green",
+      "symbols": ["u","g"],
+      "cards": [
+        {
+          "name": "Woodland Stream",
+          "oracle_text": "Woodland Stream enters the battlefield tapped.↵{T}: Add {G} or {U} to your mana pool.",
+          "id": "d1f14b4d-b90e-4ce4-aa32-13c9969aa46a"
+        },
+        {
+          "name": "Botanical Sanctum",
+          "oracle_text": "Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.↵{T}: Add {G} or {U} to your mana pool.",
+          "id": "8744471b-a528-47d9-84d0-4526273f55e9"
+        }
+      ]
+    },
+    {
+      "name": "black-red",
+      "symbols": ["b","r"],
+      "cards": [
+        {
+          "name": "Cinder Barrens",
+          "oracle_text": "Cinder Barrens enters the battlefield tapped.↵{T}: Add {B} or {R} to your mana pool.",
+          "id": "93f6bd6b-92fb-4b4f-89c2-762cc2c465f3"
+        },
+        {
+          "name": "Dragonskull Summit",
+          "oracle_text": "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.↵{T}: Add {B} or {R} to your mana pool.",
+          "id": "91570836-9e36-4774-8d5d-7cbcee0012ba"
+        },
+        {
+          "name": "Canyon Slough",
+          "oracle_text": "({T}: Add {B} or {R} to your mana pool.)↵Canyon Slough enters the battlefield tapped.↵Cycling {2} ({2}, Discard this card: Draw a card.)",
+          "id": "8cb273d9-466d-416d-b27d-d1bc8a249076"
+        }
+      ]
+    },
+    {
+      "name": "black-green",
+      "symbols": ["b","g"],
+      "cards": [
+        {
+          "name": "Foul Orchard",
+          "oracle_text": "Foul Orchard enters the battlefield tapped.↵{T}: Add {B} or {G} to your mana pool.",
+          "id": "f66f9017-e04b-4f13-aae0-28a903f2fac2"
+        },
+        {
+          "name": "Blooming Marsh",
+          "oracle_text": "Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.↵{T}: Add {B} or {G} to your mana pool.",
+          "id": "90da33d4-fe9c-42fe-b326-2fe337dc3ecd"
+        }
+      ]
+    },
+    {
+      "name": "red-green",
+      "symbols": ["r","g"],
+      "cards": [
+        {
+          "name": "Timber Gorge",
+          "oracle_text": "Timber Gorge enters the battlefield tapped.↵{T}: Add {R} or {G} to your mana pool.",
+          "id": "c81ae262-fe8d-4c78-8604-711fb8d366d8"
+        },
+        {
+          "name": "Sheltered Thicket",
+          "oracle_text": "({T}: Add {R} or {G} to your mana pool.)↵Sheltered Thicket enters the battlefield tapped.↵Cycling {2} ({2}, Discard this card: Draw a card.)",
+          "id": "d23cd764-3f5c-4c93-ba83-e5ff397003a2"
+        }
+      ]
+    }
+  ]
+}
