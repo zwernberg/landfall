@@ -22,6 +22,10 @@ export default {
           value: '<i class="ms ms-c ms-cost"></i>'
         },
         {
+          key: '\{E\}',
+          value: '<i class="ms ms-e ms-cost"></i>'
+        },
+        {
           key: '\{R\}',
           value: '<i class="ms ms-r ms-cost"></i>'
         },
