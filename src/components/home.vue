@@ -10,6 +10,8 @@
 <script>
 import group from '@/components/group.vue';
 import json from '@/data/cards.json';
+import axios from 'axios';
+
 export default {
   name: 'home',
   components: {
@@ -17,7 +19,25 @@ export default {
   },
   data () {
     return {
-      groups: json.groups
+      groups: []
+    }
+  },
+  created () {
+    // fetch the data when the view is created and the data is
+    // already being observed
+    this.fetchData()
+  },
+  methods :{
+    fetchData() {
+      axios.get('https://api.scryfall.com/cards/search?order=cmc&q=t:land+f%3Astandard+not:transform')
+      .then(response => {
+        const cards = response.data.data;
+        // test
+        this.groups = this._.groupBy(cards, function(test) {
+          return test.color_identity.join('');
+        });
+        this.groups = this._.orderBy(this.groups, cards => { return cards[0].color_identity.length });
+      })
     }
   }
 }

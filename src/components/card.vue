@@ -2,7 +2,10 @@
   <b-card border-variant="dark"
             :header=data.name
             header-bg-variant="dark"
-            header-text-variant="white">
+            footer-bg-variant="dark"
+            :footer="`Cost $${data.usd}`"
+            header-text-variant="white"
+            footer-text-variant="white">
       <p class="card-text"><cardText  :text=data.oracle_text></cardText></p>
     </b-card>
 </template>
