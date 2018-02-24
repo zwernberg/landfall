@@ -32,9 +32,6 @@ export default {
       return this._.chunk(this.data, 3);
     }
   },
-  created() {
-    //
-  },
   methods: {
     toLower(s) {
       return s.toLowerCase();
