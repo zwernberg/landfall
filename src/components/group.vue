@@ -1,9 +1,9 @@
 <template>
   <b-jumbotron>
-    <h1>{{data.name}}</h1>
-    <h1><i v-for="(mana, index) in data.symbols" :class="`ms ms-${mana} ms-cost group-mana`" :key="index"></i></h1>
-    <b-card-group deck class="columns">
-    <card v-for="(card, index) in data.cards" :data=card :key="index"> </card>
+    <!-- <h1>{{data}}</h1> -->
+    <h1><i v-for="(mana, index) in color_identity" :class="`ms ms-${toLower(mana)} ms-cost group-mana`" :key="index"></i></h1>
+    <b-card-group deck class="md-3" v-for="(group, index) in card_groups" :key="index">
+      <card v-for="(card, index) in group" :data=card :key="index"> </card>
     </b-card-group>
   </b-jumbotron>
 </template>
@@ -18,6 +18,23 @@ export default {
   },
   data () {
     return {
+    }
+  },
+  computed: {
+    color_identity: function () {
+      if (this.data[0].color_identity.length === 0) {
+        return ('c');
+      } else {
+        return this.data[0].color_identity;
+      }
+    },
+    card_groups: function () {
+      return this._.chunk(this.data, 3);
+    }
+  },
+  methods: {
+    toLower(s) {
+      return s.toLowerCase();
     }
   }
 }
